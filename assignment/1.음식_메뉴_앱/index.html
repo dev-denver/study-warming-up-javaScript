@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타벅스</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src ="script.js" type="module" defer></script>
+</head>
+<body>
+    <h2>스타벅스</h2>
+    <nav class="navigation">
+        <input type="radio" name="filter" id="select-all" class="selectedButton" checked/>
+        <label for="select-all">All</label>
+        <input type="radio" name="filter" id="select-brewed" class="selectedButton" />
+        <label for="select-brewed">브루드 커피</label>
+        <input type="radio" name="filter" id="select-espresso" class="selectedButton" />
+        <label for="select-espresso">에스프레소</label>
+        <input type="radio" name="filter" id="select-coldBrew" class="selectedButton" />
+        <label for="select-coldBrew">콜드브루</label>
+        <input type="radio" name="filter" id="select-frappuccino" class="selectedButton" />
+        <label for="select-frappuccino">프라푸치노</label>
+    </nav>
+    <main>
+        <ul class="coffee-list">
+            <li class="coffee-item">
+                <img src="/" alt="" class="coffee-img"/>
+                <div class="text-container">
+                    <h3 class="coffee-title"></h3>
+                    <p class="coffee-price"></p>
+                    <p class="coffee-description"></p>
+                </div>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
